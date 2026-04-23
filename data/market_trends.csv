@@ -1,0 +1,64 @@
+name,operator,city,state,country,latitude,longitude,type,deployment_model,model_share_pct,estimated_mw,investment_est_usd_m,hub,dominant_tech,maturity_level,tech_category,status_proyecto
+KIO MEX2 - Cuajimalpa,KIO Networks,Cuajimalpa de Morelos,Ciudad de México,Mexico,19.358,-99.283,colocation,Colocation,84.0,5,40.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+KIO MEX3 - Tultitlan,KIO Networks,Tultitlán,Estado de México,Mexico,19.647,-99.171,colocation,Colocation,84.0,7,56.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+KIO MEX1 - Huixquilucan,KIO Networks,Huixquilucan,Estado de México,Mexico,19.3608,-99.2883,colocation,Colocation,84.0,3,24.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+MTP Santa Fe,MTP,Cuajimalpa de Morelos,Ciudad de México,Mexico,19.354,-99.288,colocation,Colocation,84.0,4,32.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+Cirion Mexico City,Cirion Technologies,Mexico City,Ciudad de México,Mexico,19.4345,-99.1972,colocation,Colocation,84.0,3,24.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+TELMEX Triara CDMX,TELMEX,Mexico City,Ciudad de México,Mexico,19.4785,-99.194,colocation,Colocation,84.0,8,64.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+Scala SMEXTP01,Scala Data Centers,Mexico City,Ciudad de México,Mexico,19.429,-99.135,wholesale,Colocation,84.0,7,56.0,mexico_city,Liquid Cooling,Trial,Hardware,Operativo
+IPXON Mexico City,IPXON Networks,Mexico City,Ciudad de México,Mexico,19.426,-99.144,colocation,Colocation,84.0,2,16.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+Xertix Mexico City,Xertix,Mexico City,Ciudad de México,Mexico,19.432,-99.133,colocation,Colocation,84.0,2,16.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+Marcatel Mexico City,Marcatel,Mexico City,Ciudad de México,Mexico,19.431,-99.14,colocation,Colocation,84.0,3,24.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+Equinix MX1,Equinix,Querétaro,Querétaro,Mexico,20.5888,-100.3899,colocation,Colocation,84.0,4,40.0,queretaro,AI-Ready Racks,Adopt,Hardware,Operativo
+Equinix MX2,Equinix,Mexico City,Ciudad de México,Mexico,19.41,-99.146,colocation,Colocation,84.0,8,64.0,mexico_city,Traditional Air Cooling,Hold,Hardware,En construcción
+KIO QRO1,KIO Networks,Querétaro,Querétaro,Mexico,20.585,-100.392,colocation,Colocation,84.0,7,70.0,queretaro,AI-Ready Racks,Adopt,Hardware,Operativo
+KIO QRO2,KIO Networks,Querétaro,Querétaro,Mexico,20.595,-100.381,colocation,Colocation,84.0,12,120.0,queretaro,AI-Ready Racks,Adopt,Hardware,Operativo
+ODATA QR01,ODATA (Aligned Data Centers),Santa Rosa Jáuregui,Querétaro,Mexico,20.718,-100.401,hyperscale,Hyperscale,12.0,32,320.0,queretaro,AI-Ready Racks,Adopt,Hardware,Operativo
+ODATA QR02,ODATA (Aligned Data Centers),Amexhe,Querétaro,Mexico,20.504,-100.253,hyperscale,Hyperscale,12.0,30,300.0,queretaro,AI-Ready Racks,Adopt,Hardware,Operativo
+ODATA QR03,ODATA (Aligned Data Centers),El Marqués,Querétaro,Mexico,20.62,-100.27,hyperscale,Hyperscale,12.0,300,3000.0,queretaro,Liquid Cooling,Adopt,Hardware,En construcción
+ODATA QR04,ODATA (Aligned Data Centers),San Miguel de Allende,Guanajuato,Mexico,20.914,-100.745,hyperscale,Hyperscale,12.0,50,500.0,queretaro,AI-Ready Racks,Adopt,Hardware,En construcción
+CloudHQ QRO1,CloudHQ,Querétaro,Querétaro,Mexico,20.602,-100.362,hyperscale,Hyperscale,12.0,60,600.0,queretaro,AI-Ready Racks,Adopt,Hardware,Operativo
+CloudHQ QRO2,CloudHQ,Querétaro,Querétaro,Mexico,20.605,-100.359,hyperscale,Hyperscale,12.0,48,480.0,queretaro,AI-Ready Racks,Adopt,Hardware,En construcción
+CloudHQ QRO3,CloudHQ,Querétaro,Querétaro,Mexico,20.608,-100.356,hyperscale,Hyperscale,12.0,48,480.0,queretaro,AI-Ready Racks,Adopt,Hardware,En construcción
+CloudHQ QRO4,CloudHQ,Querétaro,Querétaro,Mexico,20.61,-100.354,hyperscale,Hyperscale,12.0,60,600.0,queretaro,AI-Ready Racks,Adopt,Hardware,En construcción
+CloudHQ QRO5,CloudHQ,Querétaro,Querétaro,Mexico,20.613,-100.351,hyperscale,Hyperscale,12.0,48,480.0,queretaro,AI-Ready Racks,Adopt,Hardware,En construcción
+CloudHQ QRO6,CloudHQ,Querétaro,Querétaro,Mexico,20.616,-100.348,hyperscale,Hyperscale,12.0,48,480.0,queretaro,AI-Ready Racks,Adopt,Hardware,En construcción
+Ascenty MEX3,Ascenty,Querétaro,Querétaro,Mexico,20.618,-100.345,wholesale,Colocation,84.0,21,210.0,queretaro,Liquid Cooling,Trial,Hardware,En construcción
+TELMEX Triara Querétaro,TELMEX,Querétaro,Querétaro,Mexico,20.593,-100.394,colocation,Colocation,84.0,38,380.0,queretaro,AI-Ready Racks,Adopt,Hardware,Operativo
+Marcatel Querétaro,Marcatel,Querétaro,Querétaro,Mexico,20.585,-100.387,colocation,Colocation,84.0,3,30.0,queretaro,AI-Ready Racks,Adopt,Hardware,Operativo
+KIO NL1 - Monterrey,KIO Networks,San Pedro Garza García,Nuevo León,Mexico,25.657,-100.402,colocation,Colocation,84.0,5,35.0,monterrey,Hybrid Cooling,Trial,Sustainability,Operativo
+Equinix MO1,Equinix,Apodaca,Nuevo León,Mexico,25.779,-100.188,colocation,Colocation,84.0,5,35.0,monterrey,Hybrid Cooling,Trial,Sustainability,Operativo
+Equinix MO2,Equinix,Apodaca,Nuevo León,Mexico,25.781,-100.186,colocation,Colocation,84.0,6,42.0,monterrey,Hybrid Cooling,Trial,Sustainability,En construcción
+TELMEX Triara Monterrey,TELMEX,Apodaca,Nuevo León,Mexico,25.785,-100.183,colocation,Colocation,84.0,8,56.0,monterrey,Hybrid Cooling,Trial,Sustainability,Operativo
+Xertix Monterrey,Xertix,Monterrey,Nuevo León,Mexico,25.666,-100.309,colocation,Colocation,84.0,2,14.0,monterrey,Hybrid Cooling,Trial,Sustainability,Operativo
+NH Solutions Monterrey 1,NH Solutions,Monterrey,Nuevo León,Mexico,25.66,-100.316,edge,Edge,4.0,1,7.0,monterrey,Edge Computing,Trial,Hardware,Operativo
+NH Solutions Monterrey 2,NH Solutions,Monterrey,Nuevo León,Mexico,25.662,-100.314,edge,Edge,4.0,1,7.0,monterrey,Edge Computing,Trial,Hardware,Planeado
+Marcatel Monterrey,Marcatel,Monterrey,Nuevo León,Mexico,25.674,-100.322,colocation,Colocation,84.0,3,21.0,monterrey,Hybrid Cooling,Trial,Sustainability,Operativo
+Layer9 Monterrey,Layer 9 Data Centers,Monterrey,Nuevo León,Mexico,25.671,-100.318,colocation,Colocation,84.0,4,28.0,monterrey,Hybrid Cooling,Trial,Sustainability,Operativo
+HostDime GDL1,HostDime Global Corp,San Agustín,Jalisco,Mexico,20.582,-103.442,colocation,Colocation,84.0,10,70.0,guadalajara,Hybrid Cooling,Trial,Sustainability,Operativo
+HostDime GDL2,HostDime Global Corp,Guadalajara,Jalisco,Mexico,20.627,-103.423,colocation,Colocation,84.0,4,28.0,guadalajara,Hybrid Cooling,Trial,Sustainability,Operativo
+MetroCarrier Guadalajara,MetroCarrier,San Pedro Tlaquepaque,Jalisco,Mexico,20.621,-103.331,colocation,Colocation,84.0,9,63.0,guadalajara,Hybrid Cooling,Trial,Sustainability,Operativo
+Assetel CloudSIDE,Assetel,Zapopan,Jalisco,Mexico,20.721,-103.413,colocation,Colocation,84.0,2,14.0,guadalajara,Hybrid Cooling,Trial,Sustainability,Operativo
+IPXON Guadalajara,IPXON Networks,Zapopan,Jalisco,Mexico,20.698,-103.438,colocation,Colocation,84.0,2,14.0,guadalajara,Hybrid Cooling,Trial,Sustainability,Operativo
+Marcatel Guadalajara,Marcatel,Guadalajara,Jalisco,Mexico,20.664,-103.352,colocation,Colocation,84.0,3,21.0,guadalajara,Hybrid Cooling,Trial,Sustainability,Operativo
+TELMEX Triara Guadalajara,TELMEX,Guadalajara,Jalisco,Mexico,20.673,-103.349,colocation,Colocation,84.0,5,35.0,guadalajara,Hybrid Cooling,Trial,Sustainability,Operativo
+Nabiax León 1,Nabiax,León,Guanajuato,Mexico,21.1221,-101.6824,colocation,Colocation,84.0,6,42.0,otro,Traditional Air Cooling,Hold,Hardware,Operativo
+Nabiax León 2,Nabiax,León,Guanajuato,Mexico,21.125,-101.679,colocation,Colocation,84.0,6,42.0,otro,Traditional Air Cooling,Hold,Hardware,Operativo
+TELMEX Triara León,TELMEX,León,Guanajuato,Mexico,21.128,-101.676,colocation,Colocation,84.0,4,28.0,otro,Traditional Air Cooling,Hold,Hardware,Operativo
+Nabiax Toluca 1,Nabiax,Toluca,Estado de México,Mexico,19.2826,-99.6557,colocation,Colocation,84.0,5,40.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+Nabiax Toluca 2,Nabiax,Toluca,Estado de México,Mexico,19.286,-99.652,colocation,Colocation,84.0,5,40.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo
+TELMEX Triara Mérida,TELMEX,Mérida,Yucatán,Mexico,20.9674,-89.6235,colocation,Colocation,84.0,3,21.0,otro,Traditional Air Cooling,Hold,Hardware,Operativo
+ECSystems Mérida,ECSystems,Mérida,Yucatán,Mexico,20.967,-89.623,colocation,Colocation,84.0,1,7.0,otro,Traditional Air Cooling,Hold,Hardware,Planeado
+TELMEX Triara Cancún,TELMEX,Cancún,Quintana Roo,Mexico,21.1619,-86.8515,edge,Edge,4.0,2,14.0,otro,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara Veracruz 1,TELMEX,Veracruz,Veracruz,Mexico,19.1738,-96.1342,edge,Edge,4.0,2,14.0,otro,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara San Luis Potosí 1,TELMEX,San Luis Potosí,San Luis Potosí,Mexico,22.1565,-100.9855,edge,Edge,4.0,2,14.0,otro,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara Aguascalientes 1,TELMEX,Aguascalientes,Aguascalientes,Mexico,21.8818,-102.2916,edge,Edge,4.0,2,14.0,otro,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara Aguascalientes 2,TELMEX,Aguascalientes,Aguascalientes,Mexico,21.8845,-102.288,edge,Edge,4.0,1,7.0,otro,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara Hermosillo,TELMEX,Hermosillo,Sonora,Mexico,29.0729,-110.9559,edge,Edge,4.0,2,14.0,otro,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara Tijuana,TELMEX,Tijuana,Baja California,Mexico,32.5149,-117.0382,edge,Edge,4.0,2,14.0,otro,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara Nogales,TELMEX,Nogales,Sonora,Mexico,31.32,-110.94,edge,Edge,4.0,1,7.0,otro,Edge Computing,Trial,Hardware,Operativo
+Cuernavaca DC,TELMEX,Cuernavaca,Morelos,Mexico,18.9261,-99.2308,edge,Edge,4.0,1,8.0,mexico_city,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara Villahermosa,TELMEX,Villahermosa,Tabasco,Mexico,17.989,-92.9475,edge,Edge,4.0,1,7.0,otro,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara Tuxtla Gutiérrez,TELMEX,Tuxtla Gutiérrez,Chiapas,Mexico,16.7521,-93.1145,edge,Edge,4.0,1,7.0,otro,Edge Computing,Trial,Hardware,Operativo
+TELMEX Triara Xalapa,TELMEX,Xalapa,Veracruz,Mexico,19.5438,-96.9102,edge,Edge,4.0,1,7.0,otro,Edge Computing,Trial,Hardware,Operativo
+Puebla DC,TELMEX,Puebla,Puebla,Mexico,19.0414,-98.2063,colocation,Colocation,84.0,3,24.0,mexico_city,Traditional Air Cooling,Hold,Hardware,Operativo

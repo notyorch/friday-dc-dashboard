@@ -1,0 +1,48 @@
+tier_level,requirement_name,framework,status
+I,Single Power Path,TIA-942,Compliant
+I,Single Cooling Path,TIA-942,Compliant
+I,Basic Physical Security,TIA-942,Compliant
+I,Non-Redundant UPS,TIA-942,Compliant
+I,Basic Fire Suppression,TIA-942,Compliant
+I,Single Network Entry Point,TIA-942,Compliant
+II,Redundant Capacity Components (N+1),TIA-942,Compliant
+II,Raised Floor or Equivalent,TIA-942,Compliant
+II,Redundant UPS Modules,TIA-942,Compliant
+II,Generator Backup Power,TIA-942,Compliant
+II,Perimeter Access Control,TIA-942,Compliant
+II,Environmental Monitoring (Temp/Humidity),TIA-942,In Review
+III,Concurrent Maintainability – Power,TIA-942,Compliant
+III,Concurrent Maintainability – Cooling,TIA-942,Compliant
+III,Dual Power Distribution Paths,TIA-942,Compliant
+III,Multiple Network Entry Points,TIA-942,In Review
+III,CCTV and Biometric Access,TIA-942,Compliant
+III,Structured Cabling – Redundant Paths,TIA-942,Non-Compliant
+III,Immersion Cooling Annex (TIA-942-C),TIA-942,In Review
+IV,Fault Tolerance – All Systems (2N),TIA-942,In Review
+IV,Independent Dual Power Feeds,TIA-942,Non-Compliant
+IV,Compartmentalized Fire Zones,TIA-942,Compliant
+IV,Fully Redundant Cooling (2N+1),TIA-942,Non-Compliant
+IV,Continuous Uninterruptible Power (>99.9999%),TIA-942,In Review
+IV,Micro Edge Annex Compliance (TIA-942-C),TIA-942,In Review
+I,Physical Entry Controls – Perimeter,ISO 27001,Compliant
+I,Clear Desk and Screen Policy,ISO 27001,Compliant
+II,Securing Offices and Facilities,ISO 27001,Compliant
+II,Protection Against Physical Threats,ISO 27001,In Review
+II,Equipment Maintenance Procedures,ISO 27001,Compliant
+III,Secure Disposal of Equipment,ISO 27001,Compliant
+III,Cabling Security,ISO 27001,In Review
+III,Visitor Management and Escorting,ISO 27001,Compliant
+I,Information Security Policies Documented,ISO 27001,Compliant
+I,Risk Assessment Process,ISO 27001,Compliant
+II,Access Control Policy,ISO 27001,Compliant
+II,Multi-Factor Authentication,ISO 27001,Compliant
+II,Incident Management Procedure,ISO 27001,In Review
+II,Supplier Security Assessment,ISO 27001,Non-Compliant
+III,Data Encryption at Rest and Transit,ISO 27001,Compliant
+III,Privileged Access Management,ISO 27001,In Review
+III,Audit Logging and Monitoring,ISO 27001,Compliant
+III,Vulnerability Management Program,ISO 27001,In Review
+IV,Business Continuity Plan (BCP),ISO 27001,Compliant
+IV,Penetration Testing – Annual,ISO 27001,Non-Compliant
+IV,Data Residency Compliance (Ley LPDPPP),ISO 27001,In Review
+IV,Third-Party Cloud Security Assessment,ISO 27001,In Review

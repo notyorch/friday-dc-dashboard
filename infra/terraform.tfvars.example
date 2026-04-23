@@ -1,0 +1,5 @@
+aws_region   = "us-east-1"
+project_name = "friday-dc-dashboard-yourname"
+container_port = 8501
+cpu = 512
+memory = 1024

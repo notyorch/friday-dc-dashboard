@@ -1,0 +1,56 @@
+record_type,project_name,project_progress_pct,project_phase,request_id,mac_action,target_rack,scheduled_window,mac_status,control_name,control_score,control_category
+PROJECT,Fiber Ring Expansion,49,Implementation,,,,,,,,
+PROJECT,UPS Redundancy Upgrade,95,Testing,,,,,,,,
+PROJECT,Cooling Tower Retrofit,2,Planning,,,,,,,,
+PROJECT,AI Rack Deployment,100,Closed,,,,,,,,
+PROJECT,Network Spine Refresh,6,Planning,,,,,,,,
+PROJECT,Security Perimeter Audit,100,Closed,,,,,,,,
+PROJECT,Generator Load Testing,9,Planning,,,,,,,,
+PROJECT,Edge Node Integration,16,Design,,,,,,,,
+PROJECT,DR Site Synchronization,7,Planning,,,,,,,,
+PROJECT,Power Metering Rollout,77,Testing,,,,,,,,
+MAC,,,,MAC-2025100,Add,RACK-A16,2025-04-06 02:00 – 08:00,Pending,,,
+MAC,,,,MAC-2025101,Add,RACK-D15,2025-04-11 02:00 – 08:00,In Progress,,,
+MAC,,,,MAC-2025102,Move,RACK-A18,2025-03-31 02:00 – 08:00,Pending,,,
+MAC,,,,MAC-2025103,Move,RACK-B20,2025-04-10 02:00 – 08:00,Approved,,,
+MAC,,,,MAC-2025104,Change,RACK-D14,2025-03-29 02:00 – 08:00,Completed,,,
+MAC,,,,MAC-2025105,Change,RACK-A08,2025-03-27 02:00 – 08:00,Pending,,,
+MAC,,,,MAC-2025106,Change,RACK-C20,2025-04-14 20:00 – 00:00,Approved,,,
+MAC,,,,MAC-2025107,Change,RACK-B04,2025-04-04 14:00 – 16:00,Cancelled,,,
+MAC,,,,MAC-2025108,Change,RACK-D04,2025-03-26 14:00 – 20:00,Completed,,,
+MAC,,,,MAC-2025109,Move,RACK-D06,2025-04-02 02:00 – 04:00,Completed,,,
+MAC,,,,MAC-2025110,Move,RACK-C14,2025-04-03 08:00 – 12:00,Pending,,,
+MAC,,,,MAC-2025111,Add,RACK-E09,2025-03-26 14:00 – 18:00,Cancelled,,,
+MAC,,,,MAC-2025112,Move,RACK-A12,2025-04-11 20:00 – 22:00,In Progress,,,
+MAC,,,,MAC-2025113,Move,RACK-E14,2025-04-14 02:00 – 04:00,In Progress,,,
+MAC,,,,MAC-2025114,Change,RACK-E12,2025-04-11 20:00 – 00:00,Approved,,,
+MAC,,,,MAC-2025115,Move,RACK-C06,2025-04-04 02:00 – 06:00,Completed,,,
+MAC,,,,MAC-2025116,Add,RACK-E19,2025-04-08 02:00 – 04:00,In Progress,,,
+MAC,,,,MAC-2025117,Move,RACK-D04,2025-03-31 20:00 – 00:00,Pending,,,
+MAC,,,,MAC-2025118,Add,RACK-C16,2025-04-05 14:00 – 16:00,Pending,,,
+MAC,,,,MAC-2025119,Change,RACK-C09,2025-04-06 14:00 – 20:00,Approved,,,
+MAC,,,,MAC-2025120,Add,RACK-E05,2025-03-29 08:00 – 10:00,Pending,,,
+MAC,,,,MAC-2025121,Add,RACK-B17,2025-04-19 08:00 – 12:00,Pending,,,
+MAC,,,,MAC-2025122,Add,RACK-D13,2025-04-10 14:00 – 20:00,Pending,,,
+MAC,,,,MAC-2025123,Move,RACK-E20,2025-04-15 02:00 – 06:00,Cancelled,,,
+MAC,,,,MAC-2025124,Change,RACK-C11,2025-04-05 20:00 – 00:00,Completed,,,
+SECURITY,,,,,,,,,Biometric Access Control,62.3,Physical
+SECURITY,,,,,,,,,CCTV Coverage,84.3,Physical
+SECURITY,,,,,,,,,Cabinet Locking Policy,60.6,Physical
+SECURITY,,,,,,,,,Visitor Escort Procedure,60.8,Physical
+SECURITY,,,,,,,,,Motion Sensors,66.7,Physical
+SECURITY,,,,,,,,,Perimeter Fence Integrity,64.7,Physical
+SECURITY,,,,,,,,,Fire Suppression System,72.1,Physical
+SECURITY,,,,,,,,,Environmental Monitoring,60.2,Physical
+SECURITY,,,,,,,,,IAM Policy Enforcement,58.0,Logical
+SECURITY,,,,,,,,,MFA on All Systems,64.3,Logical
+SECURITY,,,,,,,,,Firewall Rule Review,62.2,Logical
+SECURITY,,,,,,,,,Patch Management Cadence,73.1,Logical
+SECURITY,,,,,,,,,SIEM Alerting,59.1,Logical
+SECURITY,,,,,,,,,Privileged Access Management,94.3,Logical
+SECURITY,,,,,,,,,Data Encryption at Rest,83.5,Logical
+SECURITY,,,,,,,,,VPN Access Controls,64.2,Logical
+SECURITY,,,,,,,,,Intrusion Detection System,68.5,Logical
+SECURITY,,,,,,,,,Vulnerability Scanning,72.4,Logical
+SECURITY,,,,,,,,,Audit Log Retention,73.1,Logical
+SECURITY,,,,,,,,,Incident Response Plan,63.1,Logical

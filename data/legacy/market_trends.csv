@@ -1,0 +1,29 @@
+year,region,market_capacity_mw,investment_usd_billions,top_player,dominant_tech,status_proyecto
+2024,CDMX,210.0,1.8,KIO Networks,Traditional Air Cooling,Operativo
+2024,Monterrey,85.0,0.75,ODATA,Edge Computing,Operativo
+2024,Queretaro,140.0,1.2,Equinix,AI-Ready Racks,Operativo
+2024,Saltillo,55.0,0.5,Microsoft,Liquid Cooling,En construcción
+2025,CDMX,235.2,2.02,KIO Networks,Traditional Air Cooling,Operativo
+2025,Monterrey,93.5,0.83,ODATA,Edge Computing,Operativo
+2025,Queretaro,168.0,1.44,Equinix,AI-Ready Racks,Operativo
+2025,Saltillo,60.0,0.55,Microsoft,Liquid Cooling,Operativo
+2026,CDMX,263.4,2.26,KIO Networks,AI-Ready Racks,Operativo
+2026,Monterrey,102.9,0.91,ODATA,Edge Computing,Operativo
+2026,Queretaro,201.6,1.73,Equinix,Liquid Cooling,En construcción
+2026,Saltillo,65.3,0.59,Microsoft,Liquid Cooling,Operativo
+2027,CDMX,295.0,2.53,KIO Networks,AI-Ready Racks,Operativo
+2027,Monterrey,113.1,1.0,ODATA,AI-Ready Racks,En construcción
+2027,Queretaro,241.9,2.07,Equinix,Liquid Cooling,En construcción
+2027,Saltillo,71.2,0.65,Microsoft,Edge Computing,Operativo
+2028,CDMX,330.4,2.83,KIO Networks,AI-Ready Racks,Operativo
+2028,Monterrey,124.4,1.1,ODATA,AI-Ready Racks,Operativo
+2028,Queretaro,290.3,2.49,Equinix,Liquid Cooling,Operativo
+2028,Saltillo,77.6,0.71,Microsoft,Edge Computing,En construcción
+2029,CDMX,370.1,3.17,KIO Networks,AI-Ready Racks,Operativo
+2029,Monterrey,136.9,1.21,ODATA,AI-Ready Racks,Operativo
+2029,Queretaro,348.4,2.99,Equinix,Liquid Cooling,Operativo
+2029,Saltillo,84.6,0.77,Microsoft,Edge Computing,Planeado
+2030,CDMX,414.5,3.55,KIO Networks,AI-Ready Racks,Operativo
+2030,Monterrey,150.6,1.33,ODATA,AI-Ready Racks,Planeado
+2030,Queretaro,418.0,3.58,Equinix,Liquid Cooling,Planeado
+2030,Saltillo,92.2,0.84,Microsoft,AI-Ready Racks,Planeado
