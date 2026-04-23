@@ -102,8 +102,11 @@ import streamlit.components.v1 as components
 st.subheader("Localización de Data Centers en México")
 st.markdown("We currently have 65 data centers listed, from 15 markets in Mexico (United Mexican States). Click on a market below, to explore its data center locations.")
 
-map_url = "https://www.datacentermap.com/mexico/"
-components.iframe(map_url, height=600, scrolling=True)
+# URL limpia para el mapa de México
+map_url = "https://www.datacentermap.com/mexico/?rw=true" 
+
+# Insertar el mapa con un contenedor controlado
+components.iframe(map_url, height=700, scrolling=True)
 
 st.info("Mapa interactivo global proporcionado por Data Center Map. La carga depende de la conexión del cliente.")
 
