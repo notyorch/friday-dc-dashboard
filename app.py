@@ -16,7 +16,12 @@ st.set_page_config(
 apply_theme()
 render_sidebar()
 
-ops, market, ops_log, compliance = load_friday_data()
+try:
+    ops, market, ops_log, compliance = load_friday_data()
+except FileNotFoundError as exc:
+    st.error(f"⚠️ Dashboard data unavailable: {exc}")
+    st.info("Ensure all CSV files are present in the `/data` directory and restart the application.")
+    st.stop()
 
 latest_snapshot = ops.groupby("rack_id", as_index=False).tail(1).copy()
 incident_window = ops.tail(48)
@@ -71,23 +76,26 @@ with left_col:
 
 with right_col:
     st.subheader("Incident watch")
-    if active_incidents:
-        st.warning(f"{active_incidents} incidents found in the latest 48 records.")
-        incident_table = recent_incidents[
-            ["timestamp", "rack_id", "incident_type", "status", "resolution_time_min"]
-        ].sort_values("timestamp", ascending=False)
-        df_incident = incident_table.rename(
-            columns={
-                "timestamp": "Timestamp",
-                "rack_id": "Rack",
-                "incident_type": "Incident",
-                "status": "Status",
-                "resolution_time_min": "Resolution (min)",
-            }
-        )
-        st.dataframe(df_incident.style.map(color_status, subset=["Status"]), use_container_width=True, hide_index=True)
-    else:
-        st.success("No incidents were detected in the most recent monitoring window.")
+    try:
+        if active_incidents:
+            st.warning(f"{active_incidents} incidents found in the latest 48 records.")
+            incident_table = recent_incidents[
+                ["timestamp", "rack_id", "incident_type", "status", "resolution_time_min"]
+            ].sort_values("timestamp", ascending=False)
+            df_incident = incident_table.rename(
+                columns={
+                    "timestamp": "Timestamp",
+                    "rack_id": "Rack",
+                    "incident_type": "Incident",
+                    "status": "Status",
+                    "resolution_time_min": "Resolution (min)",
+                }
+            )
+            st.dataframe(df_incident.style.map(color_status, subset=["Status"]), use_container_width=True, hide_index=True)
+        else:
+            st.success("No incidents were detected in the most recent monitoring window.")
+    except Exception as exc:  # noqa: BLE001 — graceful degradation for UI
+        st.warning("Incident data could not be rendered. The monitoring feed may be temporarily unavailable.")
 
     st.subheader("Market investment by region")
     investment = (
