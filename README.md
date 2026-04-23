@@ -88,5 +88,7 @@ Security page example
 ![Emerging Technologies Page](assets/emerging_tech.png)
 Emerging Technologies page example
 
+---
+
 **Academic Project:** E-CED-2 | Friday Datacenter Intelligence.
 **Dataset Source:** [Mexico Data Centers 2025 (Kaggle)](https://www.kaggle.com/datasets/jorgeenriquevp/mexico-data-centers-2025)
