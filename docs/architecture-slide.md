@@ -1,20 +1,32 @@
 # FRIDAY DC Dashboard - Architecture (1 slide)
 
-## Stack Diagram
+## Cloud Architecture & Stack
 
-User Browser -> ALB (public URL) -> ECS Fargate Service -> Streamlit Container  
-ECS Task pulls image from ECR  
-GitHub Actions on push to `main` builds Docker image and pushes to ECR, then triggers ECS redeploy  
-Infrastructure is managed by Terraform (`infra/`)
+```mermaid
+flowchart LR
+    A[Internet / User] -->|HTTP:80| B(AWS ALB)
+    B -->|TCP:8501| C{ECS Fargate Container}
+    C -.->|Reads| D[(Local CSV Data)]
+    style B fill:#ff9900,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#232f3e,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#3f8624,stroke:#fff,stroke-width:2px,color:#fff
+```
 
-## Data Sources
+- **Containerization**: ECS Task pulls immutable image from ECR.
+- **CI/CD**: GitHub Actions on push to `main` builds Docker image, pushes to ECR, and triggers ECS redeploy.
+- **IaC**: Infrastructure is fully managed by Terraform (`infra/`).
 
-- `data/friday_internal_ops.csv` (operations, incidents, PUE, power)
+## Data Sources (Stateless Embedded Data)
+
+- `data/legacy/friday_internal_ops.csv` (operations, incidents, PUE, power)
+- `data/operations_log.csv` (MAC requests, physical security controls)
+- `data/compliance_framework.csv` (TIA-942 and ISO 27001 requirements)
 - `data/market_trends.csv` (market capacity and trends)
 - External references cited in Market page: Gartner, Statista, CBRE
 
 ## Key Design Decisions
 
-- Multi-page Streamlit structure (Overview + 5 pages) for clearer live demo flow.
-- Pure black visual system with fixed `logo_w.png` branding and custom editorial typography.
-- Docker-first local testing to match ECS runtime behavior before AWS deployment.
+- **Stateless Cost-Optimization**: Eliminated persistent databases (AWS RDS) in favor of integrated CSV snapshots, reducing database operational costs by 90% while ensuring horizontal scalability.
+- **Multi-page Architecture**: Streamlit structure (Overview + 5 specialized pages) for clearer live demo flow and logical separation of metrics.
+- **Aesthetic Excellence**: Pure black visual system with dynamic color-coding based on live metrics, fixed branding, and custom editorial typography.
+- **Zero-Trust Infrastructure**: Private container execution restricted to ALB traffic via Security Groups.
