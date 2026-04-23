@@ -97,6 +97,22 @@ with right_chart:
     ).properties(height=150)
     st.altair_chart(bar_inv, use_container_width=True)
 
+st.subheader("Interactive Market Map")
+map_html = """
+<div style="position: relative; width: 100%; height: 600px; background-color: #000; border: 1px solid #151515; border-radius: 8px; overflow: hidden;">
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #8a8a8a; font-family: 'Courier Prime', monospace; z-index: 1;">
+        Loading Global Map...
+    </div>
+    <div style="position: absolute; bottom: 16px; right: 16px; z-index: 3; display: flex; gap: 10px;">
+        <a href="https://www.datacentermap.com/mexico/" target="_blank" style="background-color: rgba(21, 21, 21, 0.85); color: #f5f5f5; padding: 10px 20px; text-decoration: none; font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 13px; border: 1px solid #333; border-radius: 4px; backdrop-filter: blur(4px);">
+            Open Map in New Tab ↗
+        </a>
+    </div>
+    <iframe src="https://www.datacentermap.com/mexico/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; z-index: 2;" allowfullscreen></iframe>
+</div>
+"""
+st.components.v1.html(map_html, height=620)
+
 st.subheader("Market dataset")
 st.dataframe(
     filtered_market.sort_values(["year", "region"], ascending=[False, True]),

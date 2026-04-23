@@ -1,5 +1,7 @@
 # FRIDAY DC Dashboard - Architecture (1 slide)
 
+![Friday Logo](assets/logo_w.png)
+
 ## Cloud Architecture & Stack
 
 ```mermaid

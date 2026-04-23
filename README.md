@@ -1,11 +1,12 @@
 # Friday: Datacenter Monitoring Dashboard
+![Friday Logo](assets/logo_w.png)
 
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 Friday is a high-performance, data-driven SaaS dashboard designed for advanced datacenter operations management. Built specifically for the Mexican market context, it provides real-time insights into fleet health, energy efficiency (PUE), security compliance, and market trends.
 
-## 🚀 Technology Stack
+## Technology Stack
 
 - **Frontend/Logic:** [Streamlit](https://streamlit.io/) (Python)
 - **Containerization:** [Docker](https://www.docker.com/) & Docker Compose
@@ -13,7 +14,7 @@ Friday is a high-performance, data-driven SaaS dashboard designed for advanced d
 - **Cloud Provider:** [AWS (ECS Fargate)](https://aws.amazon.com/fargate/)
 - **CI/CD:** [GitHub Actions](https://github.com/features/actions)
 
-## 🏗️ Cloud Architecture
+## Cloud Architecture
 
 ```mermaid
 flowchart LR
@@ -71,6 +72,21 @@ Once the infrastructure is ready (specifically the ECR repository), the deployme
     - Triggers a **force-new-deployment** on the **ECS Fargate** service to pull the latest image.
 
 ---
+
+![Overview Landing Page](assets/overview.png)
+Overview page example
+
+![Operations Page](assets/operations.png)
+Operations page example
+
+![Energy Page](assets/energy.png)
+Energy page example
+
+![Security Page](assets/security.png)
+Security page example
+
+![Emerging Technologies Page](assets/emerging_tech.png)
+Emerging Technologies page example
 
 **Academic Project:** E-CED-2 | Friday Datacenter Intelligence.
 **Dataset Source:** [Mexico Data Centers 2025 (Kaggle)](https://www.kaggle.com/datasets/jorgeenriquevp/mexico-data-centers-2025)
