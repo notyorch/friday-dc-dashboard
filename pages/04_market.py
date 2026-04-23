@@ -104,7 +104,7 @@ st.subheader("Data Center Locations in Mexico")
 map_url = "https://www.datacentermap.com/mexico/"
 components.iframe(map_url, height=600, scrolling=True)
 
-st.info("Global interactive map provided by Data Center Map. Loading depends on client connection. [Ir a original](https://www.datacentermap.com/mexico/)")
+st.info("Global interactive map provided by Data Center Map. Loading depends on client connection. [Go to original](https://www.datacentermap.com/mexico/)")
 
 st.subheader("Market dataset")
 st.dataframe(
